@@ -27,7 +27,7 @@ is
     t_nl2 dbms_xmldom.domnodelist;
     t_nl3 dbms_xmldom.domnodelist;
     t_one_cell tp_one_cell;
---
+-- Testing -----Helllllllooooooooooooooooooooooooooooooooooo
     function blob2node( p_blob blob )
     return dbms_xmldom.domnode
     is
