@@ -36,6 +36,7 @@ is
       if p_blob is null or dbms_lob.getlength( p_blob ) = 0
       then
 	    --Change in Develop branch...1st Change
+		--Change in Develop branch...2nd Change
         return null;
       end if;
       return dbms_xmldom.makenode( dbms_xmldom.getdocumentelement( dbms_xmldom.newdomdocument( xmltype( p_blob, nls_charset_id( 'AL32UTF8' ) ) ) ) );
