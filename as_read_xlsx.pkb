@@ -32,6 +32,7 @@ is
     return dbms_xmldom.domnode
     is
     begin
+	--Change in Master Branch.--2
       if p_blob is null or dbms_lob.getlength( p_blob ) = 0
       then
         return null;
