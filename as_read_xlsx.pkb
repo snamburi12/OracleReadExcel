@@ -33,6 +33,7 @@ is
     is
     begin
 	--Change in Master Branch.--2
+	--Change in Azure server
       if p_blob is null or dbms_lob.getlength( p_blob ) = 0
       then
 	    --Change in Develop branch...1st Change
