@@ -38,6 +38,7 @@ is
       then
 	    --Change in Develop branch...1st Change
 		--Change in Develop branch...2nd Change
+		--Testing speed
         return null;
       end if;
       return dbms_xmldom.makenode( dbms_xmldom.getdocumentelement( dbms_xmldom.newdomdocument( xmltype( p_blob, nls_charset_id( 'AL32UTF8' ) ) ) ) );
